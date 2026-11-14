@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Smart Credit Risk", page_icon="💳", layout="wide")
+st.set_page_config(page_title="Project 1: Credit Risk", page_icon="💳", layout="wide")
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
