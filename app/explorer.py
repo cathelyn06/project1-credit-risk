@@ -34,7 +34,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("Smart Credit Risk: What Makes a Loan Risky?")
+st.title("Credit Risk: What Makes a Loan Risky?")
 
 st.write(
     "I looked at about 1.4 million past LendingClub loans to understand "
