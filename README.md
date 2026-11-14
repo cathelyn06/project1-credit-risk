@@ -1,5 +1,6 @@
 # Personal Project 1: Credit Risk
 **[▶ Try the live app](https://cathelyn-credit-risk.streamlit.app/)**
+
 A credit risk scoring system that predicts whether a LendingClub loan will default, to help lenders make smarter, data-driven lending decisions.
 
 This is a personal project I built to learn credit risk modelling end to end: cleaning a large real-world dataset, exploring what drives default, comparing a simple model with a more complex one, and explaining the predictions.
