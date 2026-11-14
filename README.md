@@ -34,6 +34,12 @@ The data is not included in this repo because of its size. Download `accepted_20
    - **SHAP** to explain which features push a prediction toward default
 5. **Results explorer** (`app/explorer.py`): a Streamlit dashboard that explains my findings to non-technical readers. Pick a factor (loan term, interest rate, debt-to-income, credit score or home ownership) to see how default rates change, plus the model results and SHAP chart in plain language.
 
+## App preview
+
+![Explore the data](images/app-explore.png)
+![Model results](images/app-results.png)
+![What drives risk](images/app-shap.png)
+
 ## Results
 
 | Model | AUC |
