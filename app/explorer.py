@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
+HERE = Path(__file__).parent
+
 
 st.set_page_config(page_title="Project 1: Credit Risk", page_icon="💳", layout="wide")
 st.markdown("""
@@ -44,8 +47,8 @@ st.write(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/cleaned_lendingclub_important_features.csv")
-
+    return pd.read_csv(HERE / "app_data.csv.gz")
+    
 df = load_data()
 
 st.header("The data at a glance")
@@ -133,7 +136,7 @@ with tab2:
 with tab3:
     st.header("What does the model pay attention to?")
 
-    st.image("shap_summary.png", caption="SHAP summary for the XGBoost model")
+    st.image(str(HERE / "shap_summary.png"), caption="SHAP summary for the XGBoost model")
     
     st.write(
         "Each row is a factor, with the most important ones at the top. "
