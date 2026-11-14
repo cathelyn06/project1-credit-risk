@@ -1,1 +1,12 @@
+# Python environments
+venv/
+.venv/
+__pycache__/
 
+# Data (too large for GitHub - see README for download link)
+data/
+
+# Jupyter / OS clutter
+.ipynb_checkpoints/
+.DS_Store
+old/
