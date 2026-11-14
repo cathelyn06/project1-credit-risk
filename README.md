@@ -1,4 +1,4 @@
-# Personal Project 1 : Credit Risk
+#Personal Project 1 : Credit Risk
 
 A credit risk scoring system that predicts whether a LendingClub loan will default, to help lenders make smarter, data-driven lending decisions.
 
